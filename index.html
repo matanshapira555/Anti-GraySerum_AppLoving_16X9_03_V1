@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anti-Gray Serum Animation 02</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    #lottie-container {
+      width: 360px;
+      height: 640px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="lottie-container"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
+
+  <script>
+    lottie.loadAnimation({
+      container: document.getElementById('lottie-container'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'Anti-GraySerum_AppLoving_16X9_03_V1'
+    });
+  </script>
+
+</body>
+</html>
